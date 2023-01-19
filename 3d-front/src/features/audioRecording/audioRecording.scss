@@ -1,0 +1,41 @@
+.audio-recording {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+
+  &__play-stop {
+    width: 30px;
+    height: 30px;
+
+    & > button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &__start,
+  &__stop {
+    right: auto;
+    top: auto;
+    border-radius: 20px;
+    background-color: #12255f;
+    color: rgb(248, 245, 245);
+    border-style: none;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  &__gif {
+    // min-height: 200px;
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+  }
+
+  &__dialog-text {
+    margin-right: 10px;
+  }
+}

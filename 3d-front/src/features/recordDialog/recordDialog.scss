@@ -1,0 +1,21 @@
+.record-dialog {
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  &__greetings {
+    margin-right: 5px;
+  }
+
+  &__start-question {
+    margin-right: 10px;
+  }
+
+  &__gif {
+    width: 100px;
+    height: 100px;
+  }
+}

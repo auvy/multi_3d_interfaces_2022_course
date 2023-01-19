@@ -1,0 +1,14 @@
+.speaker {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 125px;
+    max-height: 200px;
+    margin-left: 100px;
+    margin-top: 10px;
+
+    & > img {
+        width: 100%;
+        height: 100%;
+    }
+}

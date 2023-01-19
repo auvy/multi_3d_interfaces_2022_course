@@ -1,0 +1,16 @@
+.text-area {
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  background-color: white;
+  width: 45%;
+  height: 60%;
+
+  /* Center child horizontally*/
+  // display: flex;
+  // justify-content: center;
+
+  &__quill {
+    background-color: white;
+  }
+}
